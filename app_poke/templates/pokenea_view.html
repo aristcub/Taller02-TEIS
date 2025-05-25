@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Pokenea Visual{% endblock %}
+
+{% block content %}
+    <h2>{{ pokenea.nombre }}</h2>
+    <img src="{{ pokenea.imagen }}" alt="Imagen de {{ pokenea.nombre }}">
+    <div class="frase">"{{ pokenea.frase }}"</div>
+    <div class="contenedor">Contenedor ID: {{ contenedor_id }}</div>
+    <br>
+    <a href="/pokenea"><button>Ver otro Pokenea 🔁</button></a>
+{% endblock %}

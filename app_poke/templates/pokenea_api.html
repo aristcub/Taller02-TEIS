@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Pokenea API{% endblock %}
+
+{% block content %}
+    <h2>Pokenea aleatorio (JSON API)</h2>
+    <pre id="pokenea-json">Cargando...</pre>
+    <button onclick="loadPokenea()">Recargar Pokenea 🔁</button>
+
+    <script>
+        async function loadPokenea() {
+            const res = await fetch('/api/pokenea');
+            const data = await res.json();
+            document.getElementById('pokenea-json').textContent = JSON.stringify(data, null, 2);
+        }
+
+        loadPokenea();
+    </script>
+{% endblock %}

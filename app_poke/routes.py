@@ -11,14 +11,13 @@ def get_container_id():
 @pokenea_bp.route("/json")
 def api_pokenea():
     pokenea = random.choice(pokeneas)
-    response = {
+    return jsonify({
         "id": pokenea["id"],
         "nombre": pokenea["nombre"],
         "altura": pokenea["altura"],
         "habilidad": pokenea["habilidad"],
         "contenedor_id": get_container_id()
-    }
-    return jsonify(response)
+    })
 
 @pokenea_bp.route("/frase")
 def show_pokenea():

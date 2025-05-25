@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Pokenea API{% endblock %}
+{% block title %}Pokenea JSON{% endblock %}
 
 {% block content %}
     <h2>Pokenea aleatorio (JSON API)</h2>
@@ -8,11 +8,20 @@
 
     <script>
         async function loadPokenea() {
-            const res = await fetch('/api/pokenea');
-            const data = await res.json();
-            document.getElementById('pokenea-json').textContent = JSON.stringify(data, null, 2);
+            try {
+                const res = await fetch("{{ url_for('pokenea.api_pokenea') }}");
+                if (!res.ok) {
+                    throw new Error("Error en la respuesta del servidor");
+                }
+                const data = await res.json();
+                document.getElementById('pokenea-json').textContent = JSON.stringify(data, null, 2);
+            } catch (err) {
+                document.getElementById('pokenea-json').textContent = "Error cargando Pokenea 😢\n" + err;
+                console.error(err);
+            }
         }
 
+        // Cargar el primero automáticamente
         loadPokenea();
     </script>
 {% endblock %}

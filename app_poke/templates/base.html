@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <!-- 🧭 NAVBAR GLOBAL -->
+    <nav class="navbar">
+        <a href="{{ url_for('home') }}">🏠 Inicio</a>
+        <a href="{{ url_for('pokenea.api_ui') }}">📦 Pokenea JSON</a>
+        <a href="{{ url_for('pokenea.show_pokenea') }}">🧙 Pokenea Frase</a>
+    </nav>
+
     <div class="container">
         {% block content %}{% endblock %}
     </div>

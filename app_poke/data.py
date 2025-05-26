@@ -4,7 +4,7 @@ pokeneas = [
         "nombre": "Arepón",
         "altura": 0.5,
         "habilidad": "Doble Energía",
-        "imagen": "🥟",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/01-Arepon.png",
         "frase": "Con hambre no se piensa, mijo. Primero arepa, luego guerra."
     },
     {
@@ -12,7 +12,7 @@ pokeneas = [
         "nombre": "Silletrín",
         "altura": 1.2,
         "habilidad": "Floral Flash",
-        "imagen": "💐",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/02-Silletrin.png",
         "frase": "La vida es como una silleta: pesada, pero llena de color."
     },
     {
@@ -20,7 +20,7 @@ pokeneas = [
         "nombre": "Guariluz",
         "altura": 1.5,
         "habilidad": "Brillo de Feria",
-        "imagen": "🎇",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/03-Guariluz.png",
         "frase": "No hay oscuridad que una alborada no ilumine."
     },
     {
@@ -28,7 +28,7 @@ pokeneas = [
         "nombre": "Puebliyo",
         "altura": 1.0,
         "habilidad": "Encanto Montañero",
-        "imagen": "🏔️",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/04-Puebliyo.png",
         "frase": "El que madruga, encuentra la trocha libre."
     },
     {
@@ -36,7 +36,7 @@ pokeneas = [
         "nombre": "Trochín",
         "altura": 0.9,
         "habilidad": "Caminante Eterno",
-        "imagen": "👟",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/05-Trochin.png",
         "frase": "A punta de verraquera se llega, así sea por la trocha."
     },
     {
@@ -44,7 +44,7 @@ pokeneas = [
         "nombre": "Bailenato",
         "altura": 1.3,
         "habilidad": "Rumba Ritual",
-        "imagen": "💃🪗",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/06-Bailenato.png",
         "frase": "No hay tristeza que aguante una buena parranda."
     },
     {
@@ -52,7 +52,7 @@ pokeneas = [
         "nombre": "Toldínez",
         "altura": 0.7,
         "habilidad": "Camuflaje de Feria",
-        "imagen": "🛍️",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/07-Toldinez.png",
         "frase": "En cada toldo hay una historia y en cada historia, un paisa."
     },
     {
@@ -60,7 +60,7 @@ pokeneas = [
         "nombre": "Fincáurio",
         "altura": 1.6,
         "habilidad": "Defensa de Café",
-        "imagen": "☕🌱",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/08-Fincaurio.png",
         "frase": "No hay descanso sin finca ni domingo sin café."
     },
     {
@@ -68,7 +68,7 @@ pokeneas = [
         "nombre": "Chinchorrón",
         "altura": 1.1,
         "habilidad": "Explosión Crocante",
-        "imagen": "🐖🔥",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/09-Chinchorron.png",
         "frase": "Si la vida te da grasa, ¡haz chicharrón!"
     },
     {
@@ -76,7 +76,7 @@ pokeneas = [
         "nombre": "Ñerótic",
         "altura": 1.4,
         "habilidad": "Argumento Callejero",
-        "imagen": "🧢🛵",
+        "imagen": "https://dixbucket.s3.us-east-1.amazonaws.com/10-Nerotic.png",
         "frase": "Con respeto, pero sin miedo, así se vive en el barrio."
     }
 ]

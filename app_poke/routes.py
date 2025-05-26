@@ -27,3 +27,4 @@ def show_pokenea():
 @pokenea_bp.route("/ui")
 def api_ui():
     return render_template("pokenea_api.html")
+
